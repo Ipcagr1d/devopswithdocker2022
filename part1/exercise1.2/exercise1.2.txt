@@ -1,0 +1,38 @@
+Script started on 2022-02-22 13:10:27+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker ps -as
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                          PORTS     NAMES             SIZE
+6283cac21523   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) About a minute ago             inspiring_noyce   1.09kB (virtual 142MB)
+dbe6fe35f60e   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) About a minute ago             recursing_borg    1.09kB (virtual 142MB)
+d86650b8d664   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes                    80/tcp    quirky_elbakyan   1.09kB (virtual 142MB)
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+nginx        latest    c316d5a335a5   3 weeks ago   142MB
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker stop db6[K[K86
+d86
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker rm [K[K[Kprune[K[K[K[K[Kconatiner[K[K[K[K[K[Ktainer prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+6283cac21523a2687def3ff74f253fa373b87ee0ce1bd3288a9a78535a28ba04
+dbe6fe35f60e5f13d320cf7fd66352585d9bb16d7fc9b4898130aefca69a034c
+d86650b8d664f7291ac4c9ddc69adc874c1eb8730cd006934806b625478f5f0e
+
+Total reclaimed space: 3.279kB
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker rmi nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:2834dc507516af02784808c5f48b7cbe38b8ed5d0f4837f16e78d00deb7e7767
+Deleted: sha256:c316d5a335a5cf324b0dc83b3da82d7608724769f6454f6d9a621f3ec2534a5a
+Deleted: sha256:67e568696593c33b4a15c9d81dc6f67499b8d973b88eb49b53d47bf4dbf4d187
+Deleted: sha256:0f8d4e3d979c540644f248b4206cf540978166b095223bdc950628dca2e8f3f1
+Deleted: sha256:5d75bfe8a7422476a495b27c8a1598d1206137631d350b8bdee13bc88f365282
+Deleted: sha256:8284a9e28c625b2826efdd6160ea1ff7f710881a4a2afe1ef58a5eb51d3f919e
+Deleted: sha256:89a1db9e1079b7574c1a707bc8c1fe04ff723bc71d4bca8bc48653e9a32186d2
+Deleted: sha256:7d0ebbe3f5d26c1b5ec4d5dbb6fe3205d7061f9735080b0162d550530328abd6
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker psa[K -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ exit
+exit
+
+Script done on 2022-02-22 13:12:59+07:00 [COMMAND_EXIT_CODE="0"]

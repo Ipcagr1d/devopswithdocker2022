@@ -1,0 +1,24 @@
+Script started on 2022-02-22 13:08:00+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker conat[K[Ktainer run -d nginx
+d86650b8d664f7291ac4c9ddc69adc874c1eb8730cd006934806b625478f5f0e
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker container run -d nginx
+dbe6fe35f60e5f13d320cf7fd66352585d9bb16d7fc9b4898130aefca69a034c
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker container run -d nginx
+6283cac21523a2687def3ff74f253fa373b87ee0ce1bd3288a9a78535a28ba04
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker container -ls[K[K[Kls
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+6283cac21523   nginx     "/docker-entrypoint.…"   13 seconds ago   Up 11 seconds   80/tcp    inspiring_noyce
+dbe6fe35f60e   nginx     "/docker-entrypoint.…"   16 seconds ago   Up 14 seconds   80/tcp    recursing_borg
+d86650b8d664   nginx     "/docker-entrypoint.…"   18 seconds ago   Up 16 seconds   80/tcp    quirky_elbakyan
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker container stop[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstop 628 dbe
+628
+dbe
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+6283cac21523   nginx     "/docker-entrypoint.…"   44 seconds ago   Exited (0) 9 seconds ago             inspiring_noyce
+dbe6fe35f60e   nginx     "/docker-entrypoint.…"   47 seconds ago   Exited (0) 9 seconds ago             recursing_borg
+d86650b8d664   nginx     "/docker-entrypoint.…"   49 seconds ago   Up 48 seconds              80/tcp    quirky_elbakyan
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1[00m$ exit
+exit
+
+Script done on 2022-02-22 13:09:09+07:00 [COMMAND_EXIT_CODE="0"]

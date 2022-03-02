@@ -1,0 +1,48 @@
+Script started on 2022-02-22 21:13:42+07:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.7[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.7[00m$ dexitdocker run devopsdockeruh/simple-web-service:web-server
+Unable to find image 'devopsdockeruh/simple-web-service:web-server' locally
+^C]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.7[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.7[00m$ docker run devopsdockeruh/simple-web-service:web-server[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run devopsdockeruh/simple-web-service:web-server[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbuild . -t devopsdockeruh/simple-web-service:web-server
+[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                                         
+[?25h[1A[0G[?25l[+] Building 0.1s (2/3)                                                         
+[34m => [internal] load build definition from Dockerfile                       0.0s
+[0m[34m => => transferring dockerfile: 192B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-serv  0.0s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (4/5)                                                         
+[34m => [internal] load build definition from Dockerfile                       0.0s
+[0m[34m => => transferring dockerfile: 192B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-serv  0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine   0.0s
+[0m => exporting to image                                                     0.1s
+[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:978fbf315695ef5a3ec2e77ee411c4dcd9aa9b867fbc7  0.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (5/5) FINISHED                                                
+[34m => [internal] load build definition from Dockerfile                       0.0s
+[0m[34m => => transferring dockerfile: 192B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-serv  0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine   0.0s
+[0m[34m => exporting to image                                                     0.1s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:978fbf315695ef5a3ec2e77ee411c4dcd9aa9b867fbc7  0.1s
+[0m[34m => => naming to docker.io/devopsdockeruh/simple-web-service:web-server    0.0s
+[0m[?25h
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.7[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.7[00m$ docker build . -t devopsdockeruh/simple-web-service:web-server[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crun devopsdockeruh/simple-web-service:web-server[K
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^C]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.7[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.7[00m$ exit
+exit
+
+Script done on 2022-02-22 21:14:14+07:00 [COMMAND_EXIT_CODE="2"]

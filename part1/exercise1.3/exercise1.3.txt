@@ -1,0 +1,36 @@
+Script started on 2022-02-22 19:44:46+07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="79" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022[00m$ docker ps -a
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS                     PORTS     NAMES
+218fb5b2f0c7   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   7 minutes ago   Exited (2) 2 minutes ago             eager_fermi
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022[00m$ docker start eageer-[K_fermi
+Error response from daemon: No such container: eageer_fermi
+Error: failed to start containers: eageer_fermi
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022[00m$ docker start eageer_fermi[1Pr_fermi
+eager_fermi
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022[00m$ docker attch[Ka[K[K[K[K[K[K[K[K[K[K[K[Kdocker exec -it looper[K[K[K[K[K[Keager_fermi bash
+]0;root@218fb5b2f0c7: /usr/src/approot@218fb5b2f0c7:/usr/src/app# [K]0;root@218fb5b2f0c7: /usr/src/approot@218fb5b2f0c7:/usr/src/app# tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-22 12:45:41 +0000 UTC
+2022-02-22 12:45:43 +0000 UTC
+2022-02-22 12:45:45 +0000 UTC
+2022-02-22 12:45:47 +0000 UTC
+2022-02-22 12:45:49 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-22 12:45:51 +0000 UTC
+2022-02-22 12:45:53 +0000 UTC
+2022-02-22 12:45:55 +0000 UTC
+2022-02-22 12:45:57 +0000 UTC
+2022-02-22 12:45:59 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-22 12:46:01 +0000 UTC
+2022-02-22 12:46:03 +0000 UTC
+2022-02-22 12:46:05 +0000 UTC
+2022-02-22 12:46:07 +0000 UTC
+2022-02-22 12:46:09 +0000 UTC
+^C
+]0;root@218fb5b2f0c7: /usr/src/approot@218fb5b2f0c7:/usr/src/app# exit
+exit
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022[00m$ exit
+exit
+
+Script done on 2022-02-22 19:46:14+07:00 [COMMAND_EXIT_CODE="130"]

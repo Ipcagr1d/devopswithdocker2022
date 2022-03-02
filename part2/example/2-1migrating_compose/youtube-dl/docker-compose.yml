@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+
+    youtube-dl-ubuntu:
+      image: ipcagr1d/youtube-dl-part2
+      build: .
+      volumes:
+        - .:/mydir
+      container_name: youtube-dl

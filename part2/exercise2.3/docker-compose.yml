@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+ frontend:
+  image: example-frontend14
+  ports:
+   - 5000:5000
+  container_name: example-frontend-part2
+
+ backend:
+  image: example-backend14
+  ports:
+   - 8080:8080
+  container_name: example-backend-part2

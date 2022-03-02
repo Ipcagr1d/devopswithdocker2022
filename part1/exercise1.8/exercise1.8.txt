@@ -1,0 +1,32 @@
+Script started on 2022-02-22 21:43:35+07:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.8[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.8[00m$ dockeer [K[K[K [Kr images
+REPOSITORY                          TAG          IMAGE ID       CREATED          SIZE
+curler                              latest       5e7c471d3462   52 seconds ago   123MB
+ubuntu                              latest       54c9d81cbb44   2 weeks ago      72.8MB
+devopsdockeruh/simple-web-service   web-server   978fbf315695   11 months ago    15.7MB
+devopsdockeruh/simple-web-service   alpine       fd312adc88e0   11 months ago    15.7MB
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.8[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.8[00m$ docker ps -a
+CONTAINER ID   IMAGE                                          COMMAND                  CREATED          STATUS                        PORTS     NAMES
+1d0691d3f71e   curler                                         "/bin/sh -c ./curler…"   43 seconds ago   Exited (0) 21 seconds ago               awesome_hawking
+6ba0cce10ba2   202bf5c024bf                                   "/bin/sh -c ./curler…"   9 minutes ago    Exited (126) 9 minutes ago              jovial_ishizaka
+ccaaa4acf62b   devopsdockeruh/simple-web-service:web-server   "/usr/src/app/server…"   29 minutes ago   Exited (2) 29 minutes ago               quirky_carson
+8c678403f0cf   e25e2eb00add                                   "/usr/src/app/server…"   30 minutes ago   Exited (0) 30 minutes ago               recursing_bartik
+d0d8f97a5fb6   d8e4ae2bda66                                   "/bin/sh -c ./server"    34 minutes ago   Exited (127) 34 minutes ago             unruffled_johnson
+5288083b3797   df146b018a3e                                   "/bin/sh -c server"      35 minutes ago   Exited (127) 35 minutes ago             blissful_wright
+0c01dc17d779   df146b018a3e                                   "/bin/sh -c server"      38 minutes ago   Exited (127) 38 minutes ago             strange_morse
+b3456bd93c80   devopsdockeruh/simple-web-service:alpine       "/usr/src/app/server"    43 minutes ago   Up 42 minutes                           keen_haslett
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.8[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.8[00m$ docker run -it curler
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.8[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.8[00m$ exit
+exit
+
+Script done on 2022-02-22 21:44:21+07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,27 @@
+Script started on 2022-02-24 14:41:20+07:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="86" LINES="40"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.14[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.14[00m$ docker images
+REPOSITORY                          TAG          IMAGE ID       CREATED         SIZE
+example-backend14                   latest       bed28609b711   2 hours ago     1.07GB
+example-frontend14                  latest       312f5c57d88a   2 hours ago     1.21GB
+example-backend                     latest       e2fb16c5d87e   2 hours ago     1.07GB
+example-frontend                    latest       347bf572ad2d   17 hours ago    1.21GB
+spring-project                      latest       e635efad8c86   19 hours ago    901MB
+rails-project                       latest       fff0e04f7032   19 hours ago    988MB
+curler-improved                     latest       77d4a2b34f07   25 hours ago    123MB
+youtube-dl                          latest       2aedd6ee6e73   26 hours ago    149MB
+curler                              latest       5e7c471d3462   41 hours ago    123MB
+python-entrypoint                   latest       7a913f8d2286   2 weeks ago     909MB
+python                              3.8          26ceccfbe302   2 weeks ago     909MB
+ubuntu                              latest       54c9d81cbb44   3 weeks ago     72.8MB
+ubuntu                              18.04        dcf4d4bef137   3 weeks ago     63.2MB
+devopsdockeruh/simple-web-service   web-server   978fbf315695   11 months ago   15.7MB
+devopsdockeruh/simple-web-service   alpine       fd312adc88e0   11 months ago   15.7MB
+devopsdockeruh/simple-web-service   latest       99f995eeaa58   11 months ago   10.1MB
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.14[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.14[00m$ docker run -d -p 5000:5000 example-frontend14
+3e22cfb9c78e2d35357d62046bbba58f954c955dddae10f05538080ea9ccc827
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.14[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.14[00m$ docker run -d -p 8080:8080 example-backend14
+164fe75ef36e50340980774f4babc14ec3eac8727202032bd5fdd2ca9af407b7
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part1/exercise1.14[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part1/exercise1.14[00m$ exit
+exit
+
+Script done on 2022-02-24 14:43:56+07:00 [COMMAND_EXIT_CODE="0"]

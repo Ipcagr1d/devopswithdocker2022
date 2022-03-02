@@ -1,0 +1,31 @@
+Script started on 2022-02-25 16:21:27+07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="84" LINES="19"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.1[00m$ touch simple-web-service.log
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.1[00m$ docker-compose up
+Creating simple-web-service-part2 ... 
+[1A[2KCreating simple-web-service-part2 ... [32mdone[0m[1BAttaching to simple-web-service-part2
+[36msimple-web-service-part2 |[0m Starting log output
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+[36msimple-web-service-part2 |[0m Wrote text to /usr/src/app/text.log
+^CGracefully stopping... (press Ctrl+C again to force)
+Stopping simple-web-service-part2 ... 
+[1A[2KStopping simple-web-service-part2 ... [32mdone[0m[1B]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.1[00m$ cat simple-web-service.log 
+2022-02-25 09:21:46 +0000 UTC
+2022-02-25 09:21:48 +0000 UTC
+2022-02-25 09:21:50 +0000 UTC
+2022-02-25 09:21:52 +0000 UTC
+2022-02-25 09:21:54 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-25 09:21:56 +0000 UTC
+2022-02-25 09:21:58 +0000 UTC
+2022-02-25 09:22:00 +0000 UTC
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.1[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.1[00m$ exit
+exit
+
+Script done on 2022-02-25 16:22:08+07:00 [COMMAND_EXIT_CODE="0"]

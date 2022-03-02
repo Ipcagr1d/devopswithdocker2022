@@ -1,0 +1,26 @@
+Script started on 2022-02-25 17:01:42+07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="84" LINES="19"]
+]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.3[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.3[00m$ docker-compose up
+Creating example-frontend-part2 ... 
+Creating example-backend-part2  ... 
+[1A[2KCreating example-backend-part2  ... [32mdone[0m[1B[2A[2KCreating example-frontend-part2 ... [32mdone[0m[2BAttaching to example-backend-part2, example-frontend-part2
+[36mexample-backend-part2 |[0m [Ex 2.4+] REDIS_HOST env was not passed so redis connection is not initialized
+[36mexample-backend-part2 |[0m [Ex 2.6+] POSTGRES_HOST env was not passed so postgres connection is not initialized
+[36mexample-backend-part2 |[0m [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+[36mexample-backend-part2 |[0m 
+[36mexample-backend-part2 |[0m [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+[36mexample-backend-part2 |[0m  - using env:	export GIN_MODE=release
+[36mexample-backend-part2 |[0m  - using code:	gin.SetMode(gin.ReleaseMode)
+[36mexample-backend-part2 |[0m 
+[36mexample-backend-part2 |[0m [GIN-debug] GET    /ping                     --> server/router.pingpong (4 handlers)
+[36mexample-backend-part2 |[0m [GIN-debug] GET    /messages                 --> server/controller.GetMessages (4 handlers)
+[36mexample-backend-part2 |[0m [GIN-debug] POST   /messages                 --> server/controller.CreateMessage (4 handlers)
+[36mexample-backend-part2 |[0m [GIN-debug] Listening and serving HTTP on :8080
+[33mexample-frontend-part2 |[0m INFO: Accepting connections at http://localhost:5000
+exit
+^CGracefully stopping... (press Ctrl+C again to force)
+Stopping example-backend-part2  ... 
+Stopping example-frontend-part2 ... 
+[2A[2KStopping example-backend-part2  ... [32mdone[0m[2B[1A[2KStopping example-frontend-part2 ... [32mdone[0m[1B]0;iputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH: ~/repositories/devops_with_docker2022/part2/exercise2.3[01;32miputucaganesha@IPutuCahyaAdiGaneshaLegionY530ICH[00m:[01;34m~/repositories/devops_with_docker2022/part2/exercise2.3[00m$ exit
+exit
+
+Script done on 2022-02-25 17:02:24+07:00 [COMMAND_EXIT_CODE="0"]

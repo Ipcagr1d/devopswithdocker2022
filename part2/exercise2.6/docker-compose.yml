@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:14-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: postgres
+    container_name: db_postgres
+  redis:
+    image: redis
+    container_name: redis2.6
+  frontend:
+    image: example-frontend14
+    ports:
+      - 5000:5000
+    container_name: frontend2.6
+  backend:
+    image: example-backend14
+    ports:
+      - 8080:8080
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=db
+      - POSTGRES_PASSWORD=postgres
+    container_name: backend2.6
+
+volumes:
+  database:
