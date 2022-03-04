@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # get dependency to install docker
-RUN apt-get update -qq && apt-get install -qqy \
+RUN apt-get update && apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
